@@ -26,7 +26,6 @@ async function reGetUserInfo (next: NavigationGuardNext) {
   } else {
     // 如果没有获取到用户信息 直接跳转到登录页面
     // next({ name: 'LoginPage' })
-    alert(132)
     next({ name: 'demoAPage' })
     NProgress.done()
   }
