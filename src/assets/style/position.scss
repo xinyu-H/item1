@@ -1,0 +1,45 @@
+/**
+  * 位置样式文件
+ */
+
+.y-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+// 竖直方向居中
+.y-center {
+  display: flex;
+  align-items: center;
+}
+
+// 水平居中
+.x-center {
+  display: flex;
+  justify-content: center;
+}
+
+// 子元素居右
+.x-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+// 水平居中并且内容在两侧
+.x-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+// 全部居中
+.core-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-1 {
+  flex: 1;
+}

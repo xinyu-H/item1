@@ -1,0 +1,38 @@
+@import "position.scss";
+@import "base";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+}
+
+html,body,#app{
+  height: 100%;
+}
+
+// 文字文字过长出现省略号
+.text-overflow-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#nprogress .bar {
+  background:$color-blue-500 !important;
+  text-align: right;
+
+  .peg{
+    box-shadow: 0 0 10px $color-blue-500, 0 0 5px $color-blue-500 !important;
+  }
+}
+
+// 照片裁剪框样式
+.cropper-view-box{
+  outline: 4px solid $color-blue-500 !important;
+  outline-color: $color-blue-500 !important;
+}
+
+.cropper-modal{
+  background: rgba(0,0,0,.7) !important;
+}
